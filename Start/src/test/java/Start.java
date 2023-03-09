@@ -8,13 +8,13 @@ public class Start {
     @Test
     public void start1(){
         wd=new ChromeDriver();
-        wd.navigate().to("https://trello.com/");
-        wd.navigate().back();
-        wd.navigate().forward();
-        wd.navigate().refresh();
+        wd.navigate().to("https://trello.com");
+//        wd.navigate().back();
+//        wd.navigate().forward();
+//        wd.navigate().refresh();
 
         wd.close();
-        wd.quit();
+//        wd.quit();
     }
 
 }

@@ -36,9 +36,9 @@ public class LogIn {
 
         //logout
         WebElement l7 = wd.findElement(By.cssSelector("[data-testid='header-member-menu-button']"));
-        WebElement l7 = wd.findElement(By.cssSelector("[data-testid='account-menu-logout']"));
-        WebElement l8 = wd.findElement(By.cssSelector("#logout-submit"));
-        //WebElement l8 = wd.findElement(By.cssSelector("[data-testid='logout-button']"));
+        WebElement l8 = wd.findElement(By.cssSelector("[data-testid='account-menu-logout']"));
+        WebElement l9 = wd.findElement(By.cssSelector("#logout-submit"));
+        //WebElement l9 = wd.findElement(By.cssSelector("[data-testid='logout-button']"));
 
         //ends contains start css
         WebElement s1 = wd.findElement(By.cssSelector("[aria-label = 'Atlassian Trello']"));

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Start" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-03-08T16:43:36" hostname="HOME-PC" time="3.351">
+<testsuite name="Start" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-03-09T13:29:26" hostname="HOME-PC" time="3.835">
   <properties/>
-  <testcase name="start1" classname="Start" time="3.351">
-    <failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52803/devtools/browser/a79fff16-5d77-4d43-a20b-925ef7434428&#10;Build info: version: '4.7.0', revision: '0a5b49d16f'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52803/devtools/browser/a79fff16-5d77-4d43-a20b-925ef7434428
+  <testcase name="start1" classname="Start" time="3.835">
+    <failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50772/devtools/browser/16a6f2ba-0193-4bac-97e0-6802970d6fcb&#10;Build info: version: '4.7.0', revision: '0a5b49d16f'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50772/devtools/browser/16a6f2ba-0193-4bac-97e0-6802970d6fcb
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: driver.version: ChromeDriver
@@ -65,13 +65,11 @@ Driver info: driver.version: ChromeDriver
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 3543
+  <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 33957
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1678293819.734][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
-[1678293819.748][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-бер. 08, 2023 6:43:40 ПП org.openqa.selenium.remote.http.WebSocket$Listener onError
+бер. 09, 2023 3:29:30 ПП org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Invalid Status code=403 text=Forbidden
 java.io.IOException: Invalid Status code=403 text=Forbidden
 	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
