@@ -1,13 +1,24 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.security.PublicKey;
+import java.util.List;
 
 public class LogIn {
-
     WebDriver wd;
+
+    @BeforeClass
+    public void start1() {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        wd = new ChromeDriver(options);
+
+        wd.navigate().to("https://trello.com/login");
+    }
 
     @Test
     public void test1(){
@@ -15,7 +26,7 @@ public class LogIn {
         WebElement el1 = wd.findElement(By.tagName("div"));
         WebElement el2 = wd.findElement(By.id("user"));
         WebElement el3 = wd.findElement(By.className("form-field"));
-        WebElement el4 = wd.findElement(By.linkText("Log in"));
+        //WebElement el4 = wd.findElement(By.linkText("log in"));
 
         // css
         WebElement els1 = wd.findElement(By.cssSelector("#user"));
@@ -45,7 +56,6 @@ public class LogIn {
         WebElement s2 = wd.findElement(By.cssSelector("[aria-label $= 'llo']")); //ends
         WebElement s3 = wd.findElement(By.cssSelector("[aria-label ^= 'Atlas']")); //starts
         WebElement s4 = wd.findElement(By.cssSelector("[aria-label *= 'Tre']")); //contains
-
 
 
 
