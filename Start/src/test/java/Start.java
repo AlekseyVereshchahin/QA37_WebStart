@@ -13,12 +13,12 @@ public class Start {
         wd = new ChromeDriver(options);
 
         wd.navigate().to("https://trello.com");
-//        wd.navigate().back();
-//        wd.navigate().forward();
-//        wd.navigate().refresh();
+        wd.navigate().back();
+        wd.navigate().forward();
+        wd.navigate().refresh();
 
         wd.close();
-//        wd.quit();
+        wd.quit();
     }
 
 }
